@@ -1,3 +1,16 @@
 # Numerical-Integration
 
-1D Numerical Integration using Gauss-Chebychev Quadrature on a Grid and Simple C++14 Lambda Functions
+Numerical Integration in 1D, 2D and 3D using Gauss-Chebychev-Quadrature on a rectangular grid for simplistic C++ lambda functions. 
+
+For a quick theoretical introduction on Gaussian-Quadrature please visit i.e.: https://en.wikipedia.org/wiki/Gaussian_quadrature or see Paul DeVries: Computational Physics Chapter 4
+
+Usage / Troubleshooting on Linux: Be sure that your system is compatible to C++14 and to have OpenMP install for parallelization!
+
+  make
+  ./MultiDim_Gauss.out
+  
+Or compile from source using g++: 
+
+  g++ MultiDim_Gauss.cpp -fopenmp -std=c++1y
+  
+Any Questions or Bug Reports? Send me an e-Mail: dominik.lindorfer@jku.at
