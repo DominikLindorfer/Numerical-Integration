@@ -4,7 +4,7 @@ Numerical Integration in 1D, 2D and 3D using Gauss-Chebychev-Quadrature on a rec
 
 For a quick theoretical introduction on Gaussian-Quadrature please visit i.e.: https://en.wikipedia.org/wiki/Gaussian_quadrature or see Paul DeVries: Computational Physics Chapter 4
 
-## Usage / Troubleshooting on Linux: 
+## Usage & Compilation on Linux: 
 *Be sure that your system is compatible to C++14 and to have OpenMP installed for parallelization!*
 ```
 make
